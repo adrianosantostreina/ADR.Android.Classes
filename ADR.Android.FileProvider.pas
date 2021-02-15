@@ -4,7 +4,7 @@ interface
 
 uses
   {$IFDEF ANDROID}
-    , Androidapi.JNI.GraphicsContentViewText
+      Androidapi.JNI.GraphicsContentViewText
     , Androidapi.JNI.provider
     , Androidapi.JNI.JavaTypes
     , Androidapi.JNI.Net
